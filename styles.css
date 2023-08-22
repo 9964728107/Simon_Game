@@ -1,0 +1,168 @@
+.container{
+    display: flex;
+   justify-content: center;
+   /* margin-top: 5px; */
+   height: 470px ;
+   width: 470px;
+   background-color: grey;
+   /* padding:auto; */
+   border-radius: 50%;
+   align-items: center;
+  
+   margin-top: 20px;
+   position: relative;
+  
+   
+    margin-right: auto;
+    margin-left: auto;
+   
+}
+body{
+background-image: linear-gradient(to right, rgba(255, 255, 255, 0.246), rgba(89, 88, 88, 0.766));
+}
+.pink,.blue,.orange,.purple{
+    height: 130px;
+    width: 130px;
+    border-radius: 2px;
+    border: 0px solid black;
+    padding: 30px;
+    margin: 15px;
+   
+}
+.pink{
+    border-top-left-radius: 100%;
+    box-shadow: 4px 4px 10px black;
+}
+.orange{
+    border-top-right-radius: 100%;
+    box-shadow: 0px 4px 10px black;
+
+}
+.blue{
+    border-bottom-left-radius: 100%;
+    box-shadow: 0px 2px 10px black;
+}
+.purple{
+border-bottom-right-radius: 100%;
+box-shadow: 0px 2px 10px black;
+}
+*{
+    text-align: center;
+}
+.pink{
+    background-color: rgb(235, 179, 188);
+}
+.blue{
+    background-color: rgb(98, 64, 248);
+}
+
+.orange{
+
+    background-color: rgb(233, 194, 122);
+}
+.purple{
+    background-color: purple;
+}
+
+.display{
+    height: 140px;
+    width: 140px;
+    z-index: 50;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    border: 6px solid grey;
+    display: flex;
+    align-items: center;
+    
+}
+#centerD>h3{
+   font-size: 2rem;
+    /* margin: 50px; */
+    position: absolute;
+   
+    width: inherit;
+   
+    
+}
+.flash{
+    background-color: white;
+   
+
+}
+h1+h3{
+    font-weight: 200;
+    text-align: center;
+    width: 50vw;
+    display: block;
+    margin: auto;
+    height: 50px;
+    font-size: 1.5rem;
+    
+}
+h3>b{
+    font-size: 1rem;
+    display: block;
+}
+
+
+.Uflash{
+    background-color: rgba(0, 128, 0, 0.849);
+}
+h1>p{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    font-size: 1.33rem;
+}
+.Howto{
+    display: block;
+    position: absolute;
+    margin-left: 50px;
+    top: 80px;
+    padding: 0 0 60px 15px;
+    font-size:0.87rem;
+    height: 3rem;
+
+}
+.dropDown{
+    height: 2.4rem;
+    position: relative;
+    top: 15px;
+}
+.directions{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+   
+}
+.manual{
+    flex: 1;
+    height: 200px;
+    /* padding: 70px; */
+    font-size: 1.2rem
+}
+.manual> h3{
+    position: relative;
+    top: -150px;
+    left: -200px;
+    font-size: 1.15rem;
+}
+.video{
+    flex: 1;
+    height: 200px;
+  
+}
+.video>h3{
+    position: relative;
+    top: -150px;
+     right: -200px;
+    font-size: 1.15rem;
+}
+.YT{
+    display: block;
+   margin: auto;
+    position: relative;
+    right: -50px;
+    top: -30px;
+}

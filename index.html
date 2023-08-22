@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+
+    <h1>Simon Game <p></p></h1>
+    <h3>Start?...press any key</h3>
+    <!-- <div class="directions" id="directions"> -->
+    <!-- <button class="Howto">
+        How to play the game?
+        <img src="assets/expand_more_FILL0_wght400_GRAD0_opsz48.png" class="dropDown" alt="">
+    </button> -->
+     
+
+
+    <!-- </div> -->
+
+    <div class="container">
+        <div class="1stline">
+            <div class="pink btn" type="button" id="pink"></div>
+            <div class="blue btn" type="button" id="blue"></div>
+        </div>
+        <div class="2ndline">
+            <div class="orange btn" type="button" id="orange"></div>
+            <div class="purple btn" type="button" id="purple"></div>
+        </div>
+        <div class="display" id="centerD"><h3>Play!</h3></div>
+    </div> 
+    
+
+    <div class="directions">
+        <div class="manual">
+           <h3>Understand the rules <img src="assets/expand_more_FILL0_wght400_GRAD0_opsz48.png" class="dropDown" alt=""></h3>
+            <ol id="Manual">
+                <li>Press any ket to Start, the Game Selector switch to "1" and the Skill Level switch to 1,2, 3 or 4</li><br>
+                <li> Simon will give the first signal. Repeat the signal by pressing the same color lens.
+                </li> <br>
+
+                <li>Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same color lenses,
+                    in order.</li> <br>
+                <li>Simon will duplicate these first two signals and add one.Continue playing as long as you can repeat each
+                    sequence of sig- nals correctly. After the 5th, 9th and 13th signals in
+                    a sequence, Simon automatically speeds up.</li> <br>
+                <li>If you fail to repeat a sequence exactly Simon responds
+                    with a
+                    "Red" screen. This means you've lost, and the sequence of signals ends.</li><br>
+                <li> Max points of the game is displayed at the right corner of the page...bestof luck scoring more!</li>
+            </ol>
+    
+        </div>
+        <div class="video">
+            <h3> Watch a video! <img src="assets/expand_more_FILL0_wght400_GRAD0_opsz48.png" class="dropDown" alt=""></h3>
+            <br><br>
+
+
+            <iframe class="YT" width="400" height="300" src="https://www.youtube.com/embed/EWJ5uYwQJGU" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
